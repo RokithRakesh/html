@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <title>User Login</title>
+    <meta http-equiv="refresh" meta>
     <style>
         body {
             text-align: center; 
-            font-style:normal;   
+            font-style:normal; 
         }
         button{
             color:darkred;
@@ -15,28 +16,43 @@
             border-style: double;
             background-color:rgb(105, 192, 222);
         }
+        .reg{
+            color: da;
+        }
+        .press{
+            color: orangered;
+        }
+        .press1{
+            color: darkgreen;
+
+        }
 
     </style>
 </head>
 <body>
     <div class="user">
     <h3> <B> User Login </B> </h3> 
+    
    <label for="Fname">First Name :</label>
    <input type="text" name="Fname"><br>
    <br>
+
    <label for="Lname">Last Name :</label>
    <input type="text" name="lname"><br>
    <br>
+
    <label for="Dob">Date Of Birth :</label>
    <input type="date" name="Dob"><br>
    <br>
+
    <label for="Age">Age :</label>
    <input type="number" name="Age"><br>
    <br>
-   <label for="Ad NO">Admission NO :</label>
-   <input type="number" name="Ad NO"><br>
-   <br>
-   <button>REGISTER</button>
+
+   <button class="press1"> * Go To Previous page *</button>
+   <button
+    type="button" onclick="alert('Register Successfully')">* Register *</button>   <button class="press"> * Go To Register page *</button>
+ 
     </div>
 
 
