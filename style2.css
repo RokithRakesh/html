@@ -1,0 +1,19 @@
+body{
+    font-family:normal;
+    text-align: center;
+ 
+}
+label{
+    color:darkblue;
+}
+.user{
+    border-style: double;
+    justify-content: center;
+    background-color:bisque;
+}
+.recp1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}   
+
+    
+

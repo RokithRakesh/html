@@ -2,16 +2,53 @@
 <html lang="en">
 <head>
     <title>Receptional Login</title>
-    <style>
-        .user{
-        border-style: double;}
-
-    </style>
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <div class="user">
-    <label <B> New Patient Registered Form </B> </label>
-     </div>
+        <h1>RECEPTION LOGIN</h1>
+    <label class="recp1"> <h3> New Patient Registered Form : </h3> </label>
+    <label>Please Fill in The Form Below</label><br>
+    <br>
+ ****************************** <span> &#128071 &#128071 &#128071<span>******************************
+    <br>
+    <br>
+
+    <label for="name">Name :</label>
+    <input placeholder="First Name"type="text" class="name"> <input placeholder="Last Name" type="text" class="name">
+
+    <br>
+    <br>
+
+    <label for="Email">Email :</label>
+    <input placeholder="Enter your mail" type="text" class="Email">
     
+    <br>
+    <br>
+
+    <label for="Gen">Gender :</label>
+    <input type="radio"><label> <B>Male</B> </label> <input type="radio"> <label> <B>Female</B> </label>
+
+    <br>
+    <br>
+
+    <label for="DOB">Date Of Birth :</label>
+    <input type="date"> 
+    <br>
+    <br>
+
+    <label for="phone">Contact number :</label>
+    <input type="tel" class="phone" placeholder="123-45-678-90">
+    <br>
+    <br>
+
+    <label for="place">Address :</label>
+    <input type="text" class="place" placeholder="Town/City:"> <input type="text" name="place"  placeholder="Home no"> <input type="text" name="place"  placeholder="Street Address :"><br>
+    <br>
+    <br>
+
+    <button class="recp2" > <a href="user.html"> *Previous page* </a> </button>
+   <button type="button" onclick="alert('Completed Successfully')">*Submit *</button>   <button class="press"> <a href="Doctor.html">*Next page* </a> </button>
+    </div>   
 </body>
 </html>

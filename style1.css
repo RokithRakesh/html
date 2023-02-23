@@ -1,0 +1,13 @@
+
+body {
+    text-align: center; 
+    font-style:normal;
+} 
+label{
+    color: orangered;
+}
+.user {
+    border-style: double;
+    background-color: lightyellow;
+}
+
