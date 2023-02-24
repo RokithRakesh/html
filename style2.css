@@ -1,6 +1,10 @@
 body{
     font-family:normal;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
  
 }
 label{
@@ -8,8 +12,10 @@ label{
 }
 .user{
     border-style: double;
-    justify-content: center;
+    padding: 50px 100px;
     background-color:bisque;
+    border-radius: 10px;
+    
 }
 .recp1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
