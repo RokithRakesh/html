@@ -1,13 +1,25 @@
 
 body {
+    display: flex;
     text-align: center; 
     font-style:normal;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
 } 
-label{
+.user1{
     color: orangered;
+    margin-bottom: 50px;
 }
 .user {
     border-style: double;
     background-color: lightyellow;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+a,h1{
+    margin: 0;
+
 }
 
