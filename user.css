@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    font-family:normal;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    color: darkred;
+    border-style: dotted;
+}
+
+.user {
+    border-style: double;
+    background-color: rgb(105, 192, 222);
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.press {
+    color: orangered;
+}
+
+.press1 {
+    color: darkgreen;
+}

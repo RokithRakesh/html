@@ -1,0 +1,36 @@
+
+   .doc{
+    display: flex;
+    align-items: center;
+   }
+
+   body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7F7F7;
+    text-align: center;
+   }
+
+   .doc1{
+    border: 2px solid black;
+    width: 400px;
+    height: 180px;
+   }
+
+   .doc2{
+    font-family: 'Mitr', sans-serif;
+   }
+
+   .doc3{
+    font-family: 'Mitr', sans-serif;
+   }
+
+   .doc4{
+    font-family: 'Mitr', sans-serif;
+    text-align:right;
+   }
+   .doc5{
+    width:200px;
+    margin: 15px;
+   }
